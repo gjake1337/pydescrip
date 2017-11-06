@@ -56,7 +56,7 @@ def clearTable():
 def clearHTML():
     outputText.delete(1.0, tk.END)
 
-#forces size of 150char or more, adds <p> tags as well.
+#forces size of 50char or more, adds <p> tags as well.
 def makeParagraph():
     descriptionText = plainDescription.get("1.0", tk.END)
     stringLength = len(descriptionText)
